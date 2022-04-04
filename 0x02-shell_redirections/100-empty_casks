@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -laR | head -20
+ls -aR | find -empty | head -25
