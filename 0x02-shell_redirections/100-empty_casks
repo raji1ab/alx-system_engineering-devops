@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -aR | find -empty | head -25
+find -empty | rev | cut -d/ -f1 | rev
